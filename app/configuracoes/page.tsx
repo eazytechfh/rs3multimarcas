@@ -76,7 +76,7 @@ export default function Configuracoes() {
             border-color: #ddd6fe !important;
           }
 
-          h1, h2, h3, h4, h5, h6, p, span, label, strong, .text-gray-600, .text-gray-900, .text-white, .text-muted-foreground {
+          h1, h2, h3, h4, h5, h6, p, span, label, strong, .text-gray-600, .text-gray-900, .text-muted-foreground {
             color: #1f2937 !important;
           }
 

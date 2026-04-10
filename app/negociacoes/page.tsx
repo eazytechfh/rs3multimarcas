@@ -148,7 +148,6 @@ export default function Negociacoes() {
             border-color: #ddd6fe !important;
           }
 
-          .text-white,
           .text-gray-400,
           .text-gray-500,
           .text-gray-600,
