@@ -6,8 +6,7 @@ import { usePathname, useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { getCurrentUser, signOut, CARGO_LABELS } from "@/lib/auth"
-import { LayoutDashboard, Settings, LogOut, Menu, X, Shield, Car, Calendar, MessageCircle, Users } from "lucide-react"
-import Image from "next/image"
+import { LayoutDashboard, Settings, LogOut, Menu, X, Shield, Car, Calendar, MessageCircle, Users, Zap } from "lucide-react"
 
 const allNavigation = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard, vendorAccess: false },
@@ -54,11 +53,9 @@ export function SidebarNav() {
       >
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-center h-16 px-4 bg-gradient-to-r from-[#7C3AED] to-[#60A5FA] border-b border-[#C4B5FD]">
-            <div className="flex items-center space-x-2 text-white">
-              <div className="relative w-8 h-8">
-                <Image src="/altuza-logo.png" alt="Eazy Click Logo" fill className="object-contain brightness-0 invert" />
-              </div>
-              <span className="text-xl font-bold text-white drop-shadow-sm">Eazy Click</span>
+            <div className="flex items-center space-x-2">
+              <Zap className="h-5 w-5 text-white" strokeWidth={2.5} />
+              <span className="text-xl font-bold tracking-tight text-[#FFFFFF] [text-shadow:0_1px_2px_rgba(0,0,0,0.18)]">Eazy Click</span>
             </div>
           </div>
 
