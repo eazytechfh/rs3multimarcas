@@ -33,12 +33,8 @@ export function SidebarNav() {
     <>
       <style>{`
         .sidebar-brand,
-        .sidebar-brand span,
-        .sidebar-brand svg,
-        .sidebar-brand img {
+        .sidebar-brand span {
           color: #ffffff !important;
-          fill: #ffffff !important;
-          stroke: #ffffff !important;
         }
       `}</style>
 
@@ -64,8 +60,7 @@ export function SidebarNav() {
       >
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-center h-16 px-4 bg-gradient-to-r from-[#7C3AED] to-[#60A5FA] border-b border-[#C4B5FD]">
-            <div className="sidebar-brand flex items-center space-x-2">
-              <Zap className="h-5 w-5 text-white" strokeWidth={2.5} />
+            <div className="sidebar-brand flex items-center">
               <span className="text-xl font-bold tracking-tight text-[#FFFFFF] [text-shadow:0_1px_2px_rgba(0,0,0,0.18)]">Eazy Click</span>
             </div>
           </div>
