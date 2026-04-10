@@ -54,11 +54,11 @@ export function SidebarNav() {
       >
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-center h-16 px-4 bg-gradient-to-r from-[#7C3AED] to-[#60A5FA] border-b border-[#C4B5FD]">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 text-white">
               <div className="relative w-8 h-8">
-                <Image src="/altuza-logo.png" alt="Eazy Click Logo" fill className="object-contain" />
+                <Image src="/altuza-logo.png" alt="Eazy Click Logo" fill className="object-contain brightness-0 invert" />
               </div>
-              <span className="text-xl font-bold text-white">Eazy Click</span>
+              <span className="text-xl font-bold text-white drop-shadow-sm">Eazy Click</span>
             </div>
           </div>
 
